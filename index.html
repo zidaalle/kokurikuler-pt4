@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogyakarta: Budaya & Energi Masa Depan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="nama-website" onclick="tampilkanDetail()">YOGYAKARTA: PESONA BUDAYA DAN INOVASI ENERGI ALTERNATIF</h1>
+        <p class="tagline" onclick="tampilkanDetail()">Klik untuk Menjelajahi Lebih Lanjut dan Merasakan Pesona Jawa</p>
+    </header>
+
+    <audio id="gamelan-audio" src="gamelan.mp3" autoplay loop></audio>
+
+    <div id="loading-indicator">
+        Sedang Mempersiapkan Pesona Yogyakarta... ⏳
+    </div>
+
+    <main id="konten-detail" class="tersembunyi">
+        <section id="budaya-section">
+            <h2>🌍 Budaya Lokal Daerah Istimewa Yogyakarta</h2>
+            <p>Yogyakarta adalah salah satu pusat kebudayaan Jawa yang paling kaya, mempertahankan tradisi adi luhung yang diwariskan turun-temurun. Keberadaannya tak lepas dari peran Keraton Yogyakarta sebagai penjaga utama nilai-nilai budaya dan filosofi Jawa yang mendalam.</p>
+
+            <div class="kategori">
+                <h3>📜 Tradisi Lisan</h3>
+                <div class="media-gallery">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400" alt="Anak Bermain" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=80&fm=jpg" alt="Permainan Anak Tradisional" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=60&fm=jpg" alt="Ilustrasi Cublak Suweng" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=40&fm=jpg" alt="Ilustrasi Boso Bagonggan" loading="lazy">
+                </div>
+                <div class="konten-item">
+                    <h4>Cublak-Cublak Suweng</h4>
+                    <p class="pengertian">Permainan tradisional sekaligus lagu dolanan yang berasal dari Jawa Tengah dan DIY. Permainan ini dilakukan oleh beberapa anak yang duduk melingkar dengan tangan terbuka di atas telapak tangan teman yang tengkurap di tengah. Lagu yang dinyanyikan mengandung pesan filosofis yang sangat mendalam: mencari harta sejati (*suweng*) yang sesungguhnya bukan kekayaan materi yang terlihat, melainkan kebaikan, kebahagiaan, dan kedamaian hati yang tidak terikat pada nafsu duniawi. Filosofi intinya mengajak manusia untuk tidak terikat pada harta duniawi dan menemukan kebijaksanaan sejati di dalam diri.</p>
+                    <p class="sejarah">Berkembang sejak zaman dahulu kala, diperkirakan erat kaitannya dengan penyebaran nilai-nilai moral dan agama, khususnya pada masa Walisongo, yang disampaikan melalui media yang menyenangkan, membuatnya mudah diterima oleh masyarakat, bahkan hingga anak-anak. Lagu ini menjadi salah satu warisan lisan yang melatih kejujuran, konsentrasi, dan kerja sama tim.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Boso Bagonggan</h4>
+                    <p class="pengertian">Gaya atau logat berbicara yang khas di lingkungan tertentu di Yogyakarta, seringkali digunakan sebagai bahasa sehari-hari yang santai, akrab, dan egaliter. Boso Bagonggan adalah bahasa gaul atau slang lokal yang sangat ekspresif dan dinamis, sering digunakan di kalangan muda, komunitas seni, atau pedagang pasar di area tertentu. Penggunaannya mencerminkan keakraban yang tinggi dan membedakannya dari penggunaan Bahasa Jawa Krama Inggil yang lebih formal dan kaku.</p>
+                    <p class="sejarah">Tumbuh secara lisan di komunitas-komunitas urban dan pinggiran kota, Boso Bagonggan menjadi penanda identitas yang santai. Logat ini terus berevolusi dan dipengaruhi oleh tren budaya populer, namun akar kosa katanya tetap berpegangan pada Bahasa Jawa Ngoko dan Krama. Ini adalah cerminan budaya Yogyakarta yang terbuka terhadap modernitas namun tetap berakar pada tradisi lisan.</p>
+                </div>
+            </div>
+
+            <div class="kategori">
+                <h3>💃 Seni Tari</h3>
+                <div class="media-gallery">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400" alt="Tari Jawa Klasik" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400&q=80&fm=jpg" alt="Tari Kuda Lumping" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400&q=60&fm=jpg" alt="Penari Jawa" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400&q=40&fm=jpg" alt="Tari Wira Pertiwi" loading="lazy">
+                </div>
+                <div class="konten-item">
+                    <h4>Tari Wira Pertiwi</h4>
+                    <p class="pengertian">Tari klasik gaya Yogyakarta yang menggambarkan ketangguhan, keindahan, dan semangat patriotisme seorang prajurit wanita. Gerakan tari ini sangat terstruktur, menggabungkan unsur kelembutan Jawa (*Astha Sawanda*) dengan kegagahan militer. Penari biasanya mengenakan busana prajurit wanita Keraton dan membawa properti senjata. Tari ini mencerminkan kekuatan batin dan fisik wanita yang siap membela tanah air (*Pertiwi*), sebuah filosofi yang dipegang teguh oleh Keraton.</p>
+                    <p class="sejarah">Merupakan bagian dari repertoar tari klasik Keraton Yogyakarta, diciptakan pada masa modern namun tetap berpegang pada pakem tari keraton yang diwariskan dari Mataram. Tari ini memelihara semangat nasionalisme dan penghargaan terhadap peran wanita dalam sejarah perjuangan bangsa. Tari Wira Pertiwi sering ditampilkan dalam upacara resmi atau penyambutan tamu penting.</p>
+                    <div class="video-embed">
+                        <iframe width="100%" height="315" src="https://youtu.be/wSz6U0WA90E?si=NCVuoz1zQYMOirfE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="caption">Contoh Pertunjukan Tari Wira Pertiwi</p>
+                    </div>
+                </div>
+                <div class="konten-item">
+                    <h4>Tari Kuda Kuda</h4>
+                    <p class="pengertian">Tarian rakyat yang menggunakan properti replika kuda lumping (*jathilan*). Tarian ini sarat dengan unsur mistis dan kekuatan magis (biasanya mencapai puncaknya dengan adegan *trance* atau kesurupan), menggambarkan kisah keprajuritan atau legenda rakyat yang heroik. Musik pengiringnya menggunakan gamelan dan kendang yang sangat dinamis, menciptakan suasana pertunjukan yang enerjik dan interaktif dengan penonton.</p>
+                    <p class="sejarah">Tumbuh subur di pedesaan, Tari Kuda Kuda adalah seni pertunjukan yang paling populer dan sering ditampilkan pada acara adat, bersih desa, atau perayaan. Tarian ini menjadi simbol semangat gotong royong dan keberanian masyarakat, serta berfungsi sebagai ritual tolak bala atau ungkapan rasa syukur.</p>
+                </div>
+            </div>
+
+            <div class="kategori">
+                <h3>🍽️ Kuliner Khas</h3>
+                <div class="media-gallery">
+                    <img src="https://images.unsplash.com/photo-1594228965809-5433d7c9f806?w=400" alt="Kopi Joss" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1594228965809-5433d7c9f806?w=400&q=80&fm=jpg" alt="Gudeg Krecek" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1594228965809-5433d7c9f806?w=400&q=60&fm=jpg" alt="Pasar Beringharjo" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1594228965809-5433d7c9f806?w=400&q=40&fm=jpg" alt="Lesehan Malioboro" loading="lazy">
+                </div>
+                <div class="konten-item">
+                    <h4>Kopi Joss</h4>
+                    <p class="pengertian">Kopi arang khas Yogyakarta yang disajikan dengan mencelupkan arang kayu panas membara (*joss*) ke dalam seduhan kopi. Arang yang disebut "joss" ini dipercaya mampu mengurangi tingkat keasaman kopi berkat proses karbonisasi, membuatnya lebih nyaman di lambung. Sensasi suara "joss" yang mendesis dan asap yang mengepul saat arang dimasukkan ke cangkir menjadi daya tarik utama dan ciri khas yang membuatnya terkenal hingga ke mancanegara.</p>
+                    <p class="sejarah">Bermula di sekitar Stasiun Tugu pada tahun 1980-an, Kopi Joss awalnya diciptakan untuk para pekerja malam yang mencari minuman hangat dan murah. Popularitasnya meledak dan kini menjadi minuman wajib turis, menjadikannya salah satu ikon kuliner malam Yogyakarta yang unik dan otentik. Para penjual kopi joss menjadi bagian tak terpisahkan dari lanskap malam Stasiun Tugu.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Gudeg</h4>
+                    <p class="pengertian">Makanan khas Yogyakarta, terbuat dari nangka muda (*gori*) yang dimasak sangat lama (*dimasak alon-alon*) dengan santan, gula merah, dan bumbu rempah-rempah yang kaya. Proses masak ini memakan waktu berjam-jam, menghasilkan warna coklat kemerahan dan rasa manis legit yang khas. Gudeg disajikan lengkap dengan nasi, ayam suwir, telur pindang, tahu/tempe, dan sambal krecek (kulit sapi kering yang dimasak pedas). Gudeg memiliki varian basah dan kering.</p>
+                    <p class="sejarah">Sudah menjadi ikon Yogyakarta sejak era Kerajaan Mataram Islam. Proses memasak yang memakan waktu lama melambangkan filosofi kesabaran, ketelatenan, dan harmoni masyarakat Jawa. Gudeg adalah warisan kuliner yang identitasnya melekat erat dengan kota Yogyakarta, bahkan sering disebut **"Kota Gudeg"**.</p>
+                </div>
+            </div>
+
+            <div class="kategori">
+                <h3>🎨 Keterampilan & Kerajinan</h3>
+                <div class="media-gallery">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400" alt="Proses Membatik" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=80&fm=jpg" alt="Gerobak Sapi" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=60&fm=jpg" alt="Detail Ukiran Gerobak" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=40&fm=jpg" alt="Pola Batik Sogan" loading="lazy">
+                </div>
+                <div class="konten-item">
+                    <h4>Gerobak Sapi</h4>
+                    <p class="pengertian">Alat transportasi tradisional yang ditarik oleh sepasang sapi. Secara struktural, gerobak sapi merupakan karya seni kayu yang kokoh, dibuat dengan teknik pertukangan tradisional yang presisi, seringkali tanpa banyak menggunakan paku. Gerobak memiliki filosofi yang dalam; roda melambangkan perputaran hidup, dan sapi melambangkan kekuatan alam. Dahulu digunakan untuk mengangkut hasil bumi, kini menjadi daya tarik wisata dan sering tampil dalam pawai budaya, melambangkan tradisi pertanian yang berkelanjutan.</p>
+                    <p class="sejarah">Gerobak sapi adalah tulang punggung mobilitas pedesaan di Jawa sejak zaman Mataram Kuno hingga awal kemerdekaan. Warisan keterampilan ini kini dilestarikan oleh komunitas pengrajin yang berupaya menjaga teknik konstruksi tradisional Jawa, memastikan keberlanjutan warisan ini di tengah modernisasi.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Batik</h4>
+                    <p class="pengertian">Kain bergambar yang dibuat melalui proses pewarnaan dengan penutup lilin malam (*resist dyeing*). Batik Yogyakarta dikenal dengan warna dasar sogan (coklat) yang elegan, dan motif-motif klasik seperti **Parang Rusak, Kawung, dan Semen Rama**. Motif-motif ini sarat makna filosofis dan dahulu hanya boleh dipakai oleh kalangan keraton tertentu, menunjukkan strata sosial dan pesan spiritual.</p>
+                    <p class="sejarah">Teknik membatik sudah ada sejak lama, namun mencapai puncak kejayaan pada masa Kerajaan di Jawa. Yogyakarta, bersama Solo, menjadi pusat perkembangan Batik Klasik. Ditetapkan oleh UNESCO sebagai **Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi** pada tahun 2009, menjadikannya warisan yang harus dijaga dan dilestarikan.</p>
+                </div>
+            </div>
+
+            <div class="kategori">
+                <h3>🏰 Tradisi & Wisata Budaya</h3>
+                <div class="media-gallery">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400" alt="Candi Prambanan" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400&q=80&fm=jpg" alt="Keraton Yogyakarta" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400&q=60&fm=jpg" alt="Suasana Malioboro" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1629851720857-e6347c014798?w=400&q=40&fm=jpg" alt="Prosesi Sekaten" loading="lazy">
+                </div>
+                <div class="konten-item">
+                    <h4>Tradisi Sekaten</h4>
+                    <p class="pengertian">Perayaan keagamaan tahunan yang diadakan untuk memperingati Maulid Nabi Muhammad SAW. Puncak perayaan adalah prosesi **Garebeg Mulud**, di mana dua Gunungan (Gunungan Kakung dan Gunungan Estri) dari Keraton dibawa ke Masjid Agung dan diperebutkan masyarakat sebagai simbol *rejeb* (berkah) dan kemakmuran, sebuah tradisi yang menarik ribuan pengunjung dari berbagai daerah.</p>
+                    <p class="sejarah">Dimulai pada masa Wali Songo dan Kesultanan Demak. Sekaten dirancang sebagai media dakwah Islam yang diintegrasikan dengan gamelan dan budaya lokal agar mudah diterima. Tradisi ini diteruskan oleh Kerajaan Mataram dan Keraton Yogyakarta, menjadikannya perayaan yang inklusif dan bertahan hingga kini.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Candi Prambanan</h4>
+                    <p class="pengertian">Kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi. Didedikasikan untuk Trimurti. Candi ini menonjol dengan arsitektur tinggi, ramping, dan lancip, mencapai ketinggian 47 meter pada Candi Siwa. Pahatan relief di pagar langkan menceritakan kisah epik Ramayana. Candi ini bukan hanya monumen sejarah tetapi juga pusat aktivitas budaya, terutama dengan diadakannya **Sendratari Ramayana**.</p>
+                    <p class="sejarah">Dibangun oleh Raja dari Wangsa Sanjaya sekitar tahun **850 Masehi** sebagai simbol kejayaan Hindu di Jawa. Kompleks ini kemudian ditinggalkan dan rusak akibat gempa bumi. Restorasi besar-besaran dilakukan pada abad ke-20. Candi Prambanan adalah Situs Warisan Dunia UNESCO. Pertunjukan **Sendratari Ramayana** rutin diadakan di panggung terbuka dengan latar belakang candi yang megah, menjadi tontonan budaya yang mendunia.</p>
+                    <div class="video-embed">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/e_3z2E9rFkM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="caption">Cuplikan Pertunjukan Sendratari Ramayana di Prambanan</p>
+                    </div>
+                </div>
+                <div class="konten-item">
+                    <h4>Malioboro</h4>
+                    <p class="pengertian">Jalan legendaris yang menjadi pusat perbelanjaan, sosial, dan wisata di Yogyakarta. Jalan ini adalah poros utama yang menghubungkan Keraton Yogyakarta dan Tugu Pal Putih. Malioboro dipadati oleh pedagang kaki lima, becak, dan andong. Filosofi *sumbu imajiner* Keraton menghubungkan Malioboro dengan kesakralan kota, menjadikannya lebih dari sekadar jalan.</p>
+                    <p class="sejarah">Malioboro telah menjadi jalur vital sejak masa kolonial. Nama "Malioboro" diperkirakan berasal dari nama seorang kolonel Inggris, **Marlborough**. Sejak saat itu, jalan ini telah berevolusi dari pusat perdagangan kolonial menjadi ikon wisata yang tak pernah tidur, melambangkan perpaduan budaya dan ekonomi modern dengan tradisional.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Keraton Yogyakarta & Museum Sonobudoyo</h4>
+                    <p class="pengertian">Kompleks istana resmi Sultan Hamengkubuwono yang berkuasa di Kesultanan Yogyakarta, merupakan pusat pemerintahan, budaya, dan filosofi Jawa. Di dekatnya, **Museum Sonobudoyo** menyimpan koleksi lengkap berupa wayang, topeng, keris, perhiasan, dan artefak bersejarah lainnya, mencakup kebudayaan Jawa, Bali, Madura, dan Lombok.</p>
+                    <p class="sejarah">Keraton didirikan oleh Sultan Hamengkubuwono I pada tahun 1755. Sementara Museum Sonobudoyo didirikan tahun 1935 oleh Yayasan Java Instituut, keduanya menjadi penjaga dan pelestari nilai-nilai budaya Mataram Islam hingga kini.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="energi-section">
+            <h2>💡 Pengembangan Energi Alternatif di Yogyakarta</h2>
+            <p>DIY berkomitmen untuk mewujudkan ketahanan energi berkelanjutan dan mengurangi emisi karbon melalui pengembangan energi baru terbarukan (EBT), didorong oleh kebijakan Rencana Umum Energi Daerah (RUED) DIY.</p>
+
+            <div class="kategori">
+                <h3>☀️ Jenis-Jenis Energi Alternatif di DIY</h3>
+                <div class="media-gallery">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400" alt="Panel Surya" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=80&fm=jpg" alt="Biomassa" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=60&fm=jpg" alt="Turbin Angin" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549419168-52f20d7f2590?w=400&q=40&fm=jpg" alt="PLTMH" loading="lazy">
+                </div>
+                <div class="konten-item">
+                    <h4>Energi Surya (Matahari)</h4>
+                    <p class="pengertian">Pemanfaatan sinar matahari menggunakan Panel Surya (Photovoltaic/PV) untuk menghasilkan listrik. Ini adalah fokus utama di DIY karena ketersediaan sinar matahari yang melimpah dan kemudahan instalasi, terutama untuk PLTS Atap. Teknologi ini mengubah radiasi surya menjadi energi listrik yang bersih dan terbarukan, berkontribusi signifikan pada bauran energi daerah.</p>
+                    <p class="sejarah">Didorong oleh target bauran energi nasional dan program *Green Campus*, implementasi masif terlihat pada skala rumah tangga, fasilitas publik, dan Pembangkit Listrik Tenaga Surya (PLTS) komunal. Pemerintah DIY memfasilitasi percepatan perizinan untuk PLTS Atap sejak tahun 2018.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Bio Massa</h4>
+                    <p class="pengertian">Pemanfaatan limbah organik dari sektor pertanian (sekam padi, kotoran ternak) atau tanaman energi khusus untuk menghasilkan listrik, panas, atau biogas. Potensi biomassa di DIY sangat besar, terutama dari limbah pertanian di Bantul dan Kulon Progo. Teknologi ini membantu mengurangi limbah sekaligus menyediakan energi ramah lingkungan. Bio massa merupakan solusi berkelanjutan untuk daerah pedesaan.</p>
+                    <p class="sejarah">Proyek percontohan biogas di peternakan telah berhasil diadopsi oleh masyarakat pedesaan. Selain itu, potensi biomassa dari pohon kaliandra juga sedang dikembangkan sebagai bahan bakar pembangkit listrik skala kecil, mengurangi ketergantungan pada bahan bakar fosil.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Energi Angin dan Air</h4>
+                    <p class="pengertian">Energi Angin dieksplorasi di daerah pesisir selatan (PLTB), meskipun potensinya tidak sebesar wilayah lain, namun kajian terus dilakukan. Energi Air diwujudkan melalui Pembangkit Listrik Tenaga Mikrohidro (PLTMH) yang memanfaatkan aliran sungai di daerah perbukitan, menyediakan listrik untuk komunitas terpencil dan membantu stabilisasi pasokan listrik di area tersebut.</p>
+                    <p class="sejarah">Proyek-proyek ini bersifat skala kecil hingga menengah, difokuskan untuk pemberdayaan masyarakat terpencil dan sebagai studi kelayakan untuk potensi EBT jangka panjang di DIY.</p>
+                </div>
+            </div>
+
+            <div class="kategori">
+                <h3>🏘️ Contoh Pelaksanaan & Pemanfaatan</h3>
+                <div class="konten-item">
+                    <h4>Solar PV di Kampus Besar (UGM, UNY, UMY, UKRIM)</h4>
+                    <p class="pengertian">Kampus-kampus terkemuka seperti **UGM, UNY, UMY, dan UKRIM** telah mengadopsi konsep **Green Campus** dengan memasang PLTS Atap di gedung-gedung utama. **UGM** memiliki PLTS Atap di beberapa fakultas yang berfungsi ganda sebagai laboratorium penelitian dan sumber pengurangan tagihan listrik. Inisiatif ini tidak hanya mengurangi biaya operasional tetapi juga menjadi sarana edukasi bagi mahasiswa.</p>
+                    <p class="sejarah">Komitmen universitas terhadap isu lingkungan mendorong adopsi teknologi EBT, menjadikan kampus sebagai contoh nyata transisi energi yang berkelanjutan, sekaligus sebagai pusat pengembangan dan pelatihan SDM EBT bagi masyarakat luas di wilayah DIY sejak awal tahun 2010-an.</p>
+                </div>
+                <div class="konten-item">
+                    <h4>Implementasi di Gunung Kidul dan Kegiatan Ekonomi</h4>
+                    <p class="pengertian">Gunung Kidul, dengan topografi dan intensitas matahari yang tinggi, menjadi *pilot project* utama EBT di DIY. Banyak program desa mandiri energi memanfaatkan PLTS untuk **Penerangan Jalan Umum Tenaga Surya (PJU-TS)** yang meningkatkan keamanan dan mobilitas malam hari. Pemanfaatan ini meluas ke sektor ekonomi produktif seperti **budidaya ikan** yang membutuhkan listrik stabil untuk pompa air/aerator tanpa bergantung pada jaringan PLN, sehingga secara signifikan **mengurangi emisi karbon**.</p>
+                    <p class="sejarah">Program ini muncul dari kebutuhan daerah terpencil akan akses listrik yang stabil. Didukung penuh oleh Pemda DIY dan Kementerian ESDM, proyek ini sukses mengubah desa-desa di Gunung Kidul menjadi mandiri energi dan lebih produktif secara ekonomi, menunjukkan keberhasilan EBT berbasis komunitas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
